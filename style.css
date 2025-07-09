@@ -1,0 +1,107 @@
+/* General Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body part */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Image Carousel */
+.carousel {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carousel img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.carousel-buttons {
+    margin-top: 10px;
+}
+
+.carousel-buttons button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Product Info */
+.product-info {
+    text-align: center;
+}
+
+.price {
+    font-size: 24px;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.short-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#toggle-details {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+}
+
+.more-details {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .carousel-buttons button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .price {
+    font-size: 1.2rem;
+  }
+
+  .short-description,
+  .more-details {
+    font-size: 0.9rem;
+  }
+}

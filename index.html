@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Product Name</h1>
+
+        <!-- Image Carousel -->
+         <div class="carousel">
+            <img id="product-image" alt="Product Image">
+            <div class="carousel-buttons">
+                <button id="prev-btn">Previous</button>
+                <button id="next-btn">Next</button>
+            </div>
+         </div>
+
+         <!-- Product Info -->
+          <div class="product-info">
+            <p class="price">$999</p>
+            <p class="short-description">This is a short description of the product.</p>
+            <button id="toggle-details">Show More Details</button>
+            <div class="more-details" style="display: none;">
+                <p>This section contains additional product information such as material, size, shipping info, etc.</p>
+            </div>
+          </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
